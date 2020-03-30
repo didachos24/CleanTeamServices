@@ -38,7 +38,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    .top-navbar a:not(:first-child) {
+    .top-navbar a {
         display: none;
     }
     .top-navbar a.icon {
