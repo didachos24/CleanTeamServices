@@ -1,3 +1,9 @@
+/* -------------- BODY */
+
+body {
+    margin: 0;
+}
+
 /* -------------- IMAGES */
 
 .top-image {
@@ -7,22 +13,23 @@
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
-  }
-  
+}
+
 /* -------------- NAVBAR */
 
 .top-navbar {
     overflow: hidden;
-    background-color: rgb(92, 161, 230, 0.6);
-    position: sticky;
-    position: -webkit-sticky;
+    background-color: rgba(1, 31, 75, 0.5);
+    align-items: center;
+    text-align: center;
+    /* position: sticky;
+    position: -webkit-sticky; */
 }
 
 .top-navbar a {
-    float: left;
-    display: block;
+    display: inline-block;
     text-align: center;
-    color: black;
+    color: rgb(231, 239, 246);
     padding: 14px 16px;
     font-size: 20px;
     text-decoration: none;
@@ -32,13 +39,56 @@
     display: none;
 }
 
-.top-navbar a:hover {
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: rgb(231, 239, 246);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
     background-color: rgba(38, 76, 146, 0.5);
     color: black;
 }
 
+.top-navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 @media screen and (max-width: 600px) {
-    .top-navbar a {
+    .top-navbar a, .dropdown .dropbtn {
         display: none;
     }
     .top-navbar a.icon {
@@ -57,6 +107,13 @@
     .top-navbar.responsive a{
         float: none;
         display: block;
+        text-align: left;
+    }
+    .top-navbar.responsive .dropbtn {float: none;}
+    .top-navbar.responsive .dropdown-content {position: relative}
+    .top-navbar.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
         text-align: left;
     }
 }
