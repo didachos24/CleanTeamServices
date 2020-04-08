@@ -19,19 +19,28 @@
 </head>
 <body>
 
+    <!-- Head image -->
     <a href="index.html">
         <div class="top-image"></div>
     </a>
 
-    <div class="top-navbar sticky" id="topnavbar">
-        <a href="index.html">Home</a>
-        <a href="about.html">About us</a>
-        <a href="services.html">Services</a>
-        <a href="contact.html">Contact us</a>
-        <a href="spanish.html"> 
-            Español  <i class="co flag"></i></a>
-        <a href="javascript:void(0);" class="icon" onclick="navbarFunction()">&#9776;</a>
+    <!-- Navbar -->
+    <div class="top-navbar" id="topnavbar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="navbar-content">
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact us</a>
+            <a href="spanish.html">  Español   <img src="./assets/images/flags.gif" class="flags"></a>
+            <a href="javascript:void(0);" class="icon" onclick="navbarFunction()">&#9776;</a>    
+        </div>
     </div>
+
+    <div class="navbar-responsive">
+        <span style="font-size:30px;cursor:pointer;float: right;" onclick="openNav()">&#9776; Menu</span>
+    </div>
+
 
     <script src="assets/javascript/index.js"></script>
 </body>
