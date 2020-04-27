@@ -1,2 +1,2 @@
-# SMR-Janitorial
-SMR Janitorial Website.
+# TheCleanTeam
+The Clean Team Website.
