@@ -22,6 +22,27 @@ body {
     }
 }
 
+/* -------------- FOOTER */
+
+
+.footer {
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    /* font-size: 50px; */
+    text-align: center;
+    padding: 10px;
+    color: rgb(231, 239, 246);
+    background-color: rgba(1, 31, 75, 0.7);
+    bottom: 0;
+    display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+    }
+}
+
 
 /* -------------- TOP PICTURE */
 
