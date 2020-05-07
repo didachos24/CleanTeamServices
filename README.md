@@ -1,2 +1,2 @@
-# TheCleanTeam
-The Clean Team Website.
+# CleanTeamServices
+Clean Team Services website.
