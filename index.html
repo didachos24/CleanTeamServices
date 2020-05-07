@@ -6,10 +6,11 @@
     <link rel="shortcut icon" type="image/x-icon" href="./assets/images/Logo.ico">
     <title>Clean Team Services</title>
 
-    <!-- Fomantic UI (CSS framework) -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.4/dist/semantic.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.4/dist/semantic.min.js"></script>
+    <!-- Bootstrap (CSS framework) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
     <!-- FONTAWESOME -->
     <script src="https://kit.fontawesome.com/a2f8ff3bf1.js" crossorigin="anonymous"></script>
@@ -20,7 +21,7 @@
 <body>
 
     <!-- Head image -->
-    <a href="index.html">
+    <a href="index.html" style="text-decoration: none;">
         <!-- <div class="top-image"></div> -->
         <p class="head-title">Clean Team Services</p>
     </a>
@@ -41,21 +42,33 @@
     </div>
 
     <div class="navbar-responsive">
-        <span style="font-size:30px;cursor:pointer;float: right;" onclick="openNav()">&#9776; Menu</span>
+        <span style="font-size:30px;cursor:pointer;float: right;    color: rgb(231, 239, 246);
+        " onclick="openNav()">&#9776; Menu</span>
     </div>
 
     <!-- Fluid image -->
 
-    <div class="ui fluid image">
-        <img src="./assets/images/carousel1.jpg">
+    <div class="">
+        <img class="large-img" src="./assets/images/carousel1.jpg">
+    </div>
+
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col text-centered">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste eos dolorum rem, officia deserunt excepturi ducimus itaque voluptatibus tempore, exercitationem quasi nulla corrupti commodi incidunt doloremque culpa unde a assumenda.</p>
+            </div>
+    
+        </div>
     </div>
 
 
 
-
+    <br>
 
     <div class="footer">
-        <h1>&#169; Cleam Team Services</h1>
+        <h3>&#169; Cleam Team Services</h3>
         <!-- <p>Created by </p>
         <a href="http:/www.didachos24.dev"><h3>didachos24</h3></a> -->
     </div>

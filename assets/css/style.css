@@ -4,6 +4,24 @@ body {
     margin: 0;
 }
 
+/* -------------- IMAGES */
+
+.large-img {
+    width: 100%;
+    height: auto;
+}
+
+/* TOP PICTURE */
+
+.top-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url("../images/logo.jpeg");
+    height: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
 /* -------------- HEAD TITTLE */
 
 .head-title {
@@ -14,6 +32,10 @@ body {
     padding: 10px;
     color:  rgb(1, 31, 75, 0.6);
     /* background-color: rgba(1, 31, 75, 0.6); */
+}
+
+.head-title a:hover {
+    text-decoration: none;
 }
 
 @media screen and (max-width: 600px) {
@@ -42,19 +64,6 @@ body {
     .footer {
     }
 }
-
-
-/* -------------- TOP PICTURE */
-
-.top-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url("../images/logo.jpg");
-    height: 30%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-}
-
 
 /* -------------- NAVBAR */
 
