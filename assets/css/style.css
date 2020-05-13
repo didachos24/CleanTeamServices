@@ -24,9 +24,11 @@ p {
 /* TOP PICTURE */
 
 .top-image {
-    /* background-image: url("assets/images/logo.jpg"); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('../images/logo.jpg');
-    height: 30%;
+    background-image: url('../images/Logo\ 2.png');
+    /* background-color: rgba(1, 31, 75, 0.7); */
+    background-color: rgba(241, 242, 246,1.0);
+    height: 150px;
+    width: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -81,7 +83,8 @@ p {
 .top-navbar {
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
-    background-color: rgba(1, 31, 75, 0.7);
+    /* background-color: rgba(1, 31, 75, 0.7); */
+    background-color: rgba(241, 242, 246,1.0);
     align-items: center;
     text-align: center;
     position: sticky;
@@ -93,7 +96,8 @@ p {
 .top-navbar a {
     display: inline-block;
     text-align: center;
-    color: rgb(231, 239, 246);
+    /* color: rgb(231, 239, 246); */
+    color: gray;
     padding: 18px 20px;
     font-size: 20px;
     text-decoration: none;
@@ -138,7 +142,8 @@ p {
     .navbar-responsive span {
         display: inline-block;
         width: 100%;
-        background-color: rgba(1, 31, 75, 0.7);
+        /* background-color: rgba(1, 31, 75, 0.7); */
+        background-color: rgba(241, 242, 246,1.0);
         padding: 14px;
         right: 0;
     }
