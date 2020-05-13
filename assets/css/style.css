@@ -4,17 +4,28 @@ body {
     margin: 0;
 }
 
+p {
+    font-size: larger;
+}
+
 /* -------------- IMAGES */
 
+/* FULL WIDTH SCREEN */
 .large-img {
     width: 100%;
     height: auto;
 }
 
+.logo-title {
+    height: 50px;
+    width: auto;
+}
+
 /* TOP PICTURE */
 
 .top-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url("../images/logo.jpeg");
+    /* background-image: url("assets/images/logo.jpg"); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url('../images/logo.jpg');
     height: 30%;
     background-position: center;
     background-repeat: no-repeat;
