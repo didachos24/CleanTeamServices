@@ -1,5 +1,6 @@
 // Responsive Navbar
-function openNav() {
+function NavbarFunction() {
+  console.log("clicked");
     document.getElementById("topnavbar").style.width = "100%";
   }
   
@@ -15,12 +16,11 @@ function openNav() {
   function slideshow() {
     var i;
     var slides = document.getElementsByClassName("slideshow");
-    console.log(slides.length);
     for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
     }
     slideIndex++;
     if (slideIndex > slides.length) {slideIndex = 1}
     slides[slideIndex-1].style.display = "block";
-    setTimeout(slideshow, 4000);
+    setTimeout(slideshow, 5000);
   }

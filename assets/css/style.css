@@ -9,6 +9,19 @@ p {
     font-size: larger;
 }
 
+/* -------------- TEXT */
+/* ======================================== */
+
+.right {
+    text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+    .col {
+        display: block
+    }
+}
+
 /* -------------- IMAGES */
 /* ======================================== */
 
@@ -42,6 +55,10 @@ p {
 
 .ligth-blue {
     background-color: #7ed6df;
+}
+
+.darkblue {
+    color: #3c6382;
 }
 
 /* -------------- HEAD TITTLE */
@@ -212,9 +229,9 @@ p {
 
 .fade {
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 4s;
+    -webkit-animation-duration: 5s;
     animation-name: fade;
-    animation-duration: 4s;
+    animation-duration: 5s;
 }
 
 @-webkit-keyframes fade {
