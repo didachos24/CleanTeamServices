@@ -36,6 +36,15 @@ p {
     width: auto;
 }
 
+.tall {
+    height: 100%;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+}
+
 /* TOP PICTURE */
 
 .top-image {
