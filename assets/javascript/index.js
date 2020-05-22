@@ -1,5 +1,5 @@
 // Responsive Navbar
-function NavbarFunction() {
+function openNav() {
   console.log("clicked");
     document.getElementById("topnavbar").style.width = "100%";
   }
