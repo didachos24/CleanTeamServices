@@ -32,6 +32,10 @@ p {
     text-align: center;
 }
 
+.centered {
+    height: 50%;
+}
+
 @media screen and (max-width: 600px) {
     .right {
         text-align: center;
@@ -62,7 +66,6 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* box-shadow: 10px 10px 5px grey; */
 }
 
 @media screen and (max-width: 600px) {
@@ -77,7 +80,6 @@ p {
 
 .top-image {
     background-image: url('../images/Logo\ 2.png');
-    /* background-color: rgba(1, 31, 75, 0.7); */
     background-color: rgba(241, 242, 246, 0.9);
     height: 120px;
     width: auto;
@@ -108,7 +110,6 @@ p {
     text-align: center;
     padding: 10px;
     color:  rgb(1, 31, 75, 0.6);
-    /* background-color: rgba(1, 31, 75, 0.6); */
 }
 
 .head-title a:hover {
@@ -132,7 +133,6 @@ p {
     text-align: center;
     padding: 10px;
     color: rgb(231, 239, 246);
-    /* background-color: rgba(1, 31, 75, 0.7); */
     background-color: #3c6382;
     bottom: 0;
     display: inline-block;
@@ -210,7 +210,6 @@ p {
 }
 
 .top-navbar a:hover {
-    /* background-color: #555; */
     background-color: #7ed6df;
     color: rgba(245, 246, 250);
 }
@@ -245,7 +244,8 @@ p {
         right: 0;
         font-size: 30px;
         color: gray;
-
+        position: sticky;
+        position: -webkit-sticky;    
     }
 
     .navbar-content {
