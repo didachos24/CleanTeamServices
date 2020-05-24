@@ -1,10 +1,11 @@
 // Responsive Navbar
 function openNav() {
-  console.log("clicked");
+  console.log("Clicked open");
     document.getElementById("topnavbar").style.width = "100%";
   }
   
   function closeNav() {
+    console.log("Clicked close");
     document.getElementById("topnavbar").style.width = "0%";
   }
 

@@ -68,7 +68,7 @@ p {
 @media screen and (max-width: 600px) {
     .tall {
         max-width: 280px;
-
+        height: auto;
     }
 }
 
@@ -128,7 +128,7 @@ p {
     width: 100%;
     font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
-    /* font-size: 50px; */
+    font-size: 25px;
     text-align: center;
     padding: 10px;
     color: rgb(231, 239, 246);
@@ -140,7 +140,43 @@ p {
 
 @media screen and (max-width: 600px) {
     .footer {
+        font-size: 15px;
     }
+}
+
+/* -------------- SLIDESHOW */
+/* ======================================== */
+
+.slideshow {
+    display: none;
+}
+
+.slideshow-container {
+    height: auto;
+    position: relative;
+    margin: auto;
+}
+
+.slide-img {
+    width: 100%;
+    height: auto;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 5s;
+    animation-name: fade;
+    animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
 }
 
 /* -------------- NAVBAR */
@@ -186,11 +222,6 @@ p {
     display: none
 }
 
-.flags {
-    height: 16px;
-    width: 18px;
-}
-
 @media screen and (max-width: 600px) {
 
     .top-navbar {
@@ -209,10 +240,12 @@ p {
     .navbar-responsive span {
         display: inline-block;
         width: 100%;
-        /* background-color: rgba(1, 31, 75, 0.7); */
-        background-color: rgba(241, 242, 246, 0.7);
+        background-color: rgba(241, 242, 246, 0.9);
         padding: 14px;
         right: 0;
+        font-size: 30px;
+        color: gray;
+
     }
 
     .navbar-content {
@@ -239,44 +272,7 @@ p {
         top: 20px;
         right: 45px;
         font-size: 60px;
-    }
-
-    .top-navbar .closebtn {
         display: block;
     }
 }
 
-/* -------------- SLIDESHOW */
-/* ======================================== */
-
-.slideshow {
-    display: none;
-}
-
-.slideshow-container {
-    height: auto;
-    position: relative;
-    margin: auto;
-}
-
-.slide-img {
-    width: 100%;
-    height: auto;
-}
-
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 5s;
-    animation-name: fade;
-    animation-duration: 5s;
-}
-
-@-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-}
-
-@keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-}
