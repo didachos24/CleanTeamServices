@@ -102,19 +102,18 @@ p {
     color: #3c6382;
 }
 
-/* -------------- HEAD TITTLE */
+/* -------------- PHONE LINK */
 /* ======================================== */
 
-.head-title {
-    font-family: 'Courier New', Courier, monospace;
+.phone-link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     font-size: 30px;
     text-align: center;
-    /* padding: 10px; */
     color:  rgb(1, 31, 75, 0.6);
 }
 
-.head-title a:hover {
+.phone-link a:hover {
     text-decoration: none;
 }
 
