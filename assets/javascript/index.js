@@ -33,3 +33,4 @@ function openNav() {
     // Restart function every 4 seconds
     setTimeout(slideshow, 4000);
   }
+
