@@ -43,10 +43,20 @@ p {
 @media screen and (max-width: 600px) {
   .right {
     text-align: center;
+    display: block
   }
 
   .left {
     text-align: center;
+    display: block;
+  }
+
+  .col {
+    display:inline-block
+  }
+
+  .row {
+    display: inline-block
   }
 }
 
