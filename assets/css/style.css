@@ -12,6 +12,7 @@ p {
 @media screen and (max-width: 600px) {
   .col {
     display: inline-block;
+    text-align: center;
   }
 
   p {
@@ -114,6 +115,10 @@ p {
   background-color: #7ed6df;
 }
 
+.ligthblue {
+  color: #7ed6df;
+}
+
 .darkblue {
   color: #3c6382;
 }
@@ -124,7 +129,7 @@ p {
 .phone-link {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
   /* color:  rgb(1, 31, 75, 0.6); */
   /* color: black; */
@@ -133,6 +138,13 @@ p {
 .phone-link a:hover {
   text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+  .phone-link {
+    font-size: 1rem;
+  }
+}
+
 
 /* -------------- FOOTER */
 /* ======================================== */
