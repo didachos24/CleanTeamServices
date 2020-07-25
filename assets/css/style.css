@@ -7,6 +7,8 @@ body {
 
 p {
   font-size: 1.5rem;
+  color: rgb(144, 150, 150);
+  font-family: Arial, Helvetica, sans-serif114, 133, 133;
 }
 
 @media screen and (max-width: 600px) {
@@ -86,6 +88,7 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  float: left;
 }
 
 @media screen and (max-width: 600px) {
