@@ -22,6 +22,18 @@ p {
   }
 }
 
+/* -------------- BACKGROUND COLORS */
+/* ======================================== */
+
+.bg-light-blue {
+  background-color: #7ed6df;
+}
+
+.bg-dark-blue {
+  background-color: #3c6382;
+}
+
+
 /* -------------- TEXT */
 /* ======================================== */
 
@@ -98,6 +110,12 @@ p {
   }
 }
 
+.bg-cleaning-school {
+  background-image: url("../images/cleaning-school.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* TOP PICTURE */
 
 .top-image {
@@ -114,7 +132,7 @@ p {
 /* -------------- COLORS */
 /* ======================================== */
 
-.ligth-blue {
+.light-blue {
   background-color: #7ed6df;
 }
 
@@ -124,6 +142,10 @@ p {
 
 .darkblue {
   color: #3c6382;
+}
+
+.white {
+  color: white;
 }
 
 /* -------------- PHONE LINK */
