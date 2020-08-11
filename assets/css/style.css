@@ -85,8 +85,6 @@ p {
 .large-img {
   width: 100%;
   height: auto;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(-100%);
 }
 
 .logo-title {
