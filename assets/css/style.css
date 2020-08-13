@@ -11,6 +11,13 @@ p {
   font-family: Arial, Helvetica, sans-serif114, 133, 133;
 }
 
+li {
+  font-size: 1.2rem;
+  color: rgb(144, 150, 150);
+  font-family: Arial, Helvetica, sans-serif114, 133, 133;
+
+}
+
 @media screen and (max-width: 600px) {
   .col {
     display: inline-block;
@@ -19,6 +26,10 @@ p {
 
   p {
     font-size: 1rem;
+  }
+
+  li {
+    font-size: 0.8rem;
   }
 }
 
@@ -29,10 +40,28 @@ p {
   background-color: #7ed6df;
 }
 
-.bg-dark-blue {
-  background-color: #3c6382;
+.bg-dark {
+  background-color: #535c68;
 }
 
+/* -------------- COLORS */
+/* ======================================== */
+
+.lightblue {
+  color: #7ed6df;
+}
+
+.darkblue {
+  color: #3c6382;
+}
+
+.white {
+  color: white;
+}
+
+.airbnb-color {
+  color: #FF5A60
+}
 
 /* -------------- TEXT */
 /* ======================================== */
@@ -125,25 +154,6 @@ p {
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
-}
-
-/* -------------- COLORS */
-/* ======================================== */
-
-.light-blue {
-  background-color: #7ed6df;
-}
-
-.ligthblue {
-  color: #7ed6df;
-}
-
-.darkblue {
-  color: #3c6382;
-}
-
-.white {
-  color: white;
 }
 
 /* -------------- PHONE LINK */
